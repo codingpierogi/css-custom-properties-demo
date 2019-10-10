@@ -1,0 +1,54 @@
+:root {
+  --text-color: #DAE3E5;
+  --background-color: #04080F;
+  --secondary-background-color: #507DBC;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  transition: background-color, color 300ms;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0 0 0.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+article {
+  margin: 0 auto;
+  max-width: 30vw;
+}
+
+article h1 {
+  border-bottom: 5px solid var(--secondary-background-color);
+  transition: border-color 300ms;
+}
+
+.theme-toggle {
+  background-color: var(--background-color);
+  cursor: pointer;
+  height: 2vw;
+  position: absolute;
+  top: 3vh;
+  right: 3vh;
+  width: 2vw;
+}
